@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @Abunique
-- 👀 I’m interested in Embedded systems(Hardware/Firmware)
-- 🌱 I’m currently learning all about embedded systems(Specifically programming RUST now)
+- 👀 I’m interested in designing the brains of devices(i mean i am a embedded software Engineer)
 - 📫 How to reach me ...https://www.linkedin.com/in/abinaya-selvam-a27860122/
 
 <!---
