@@ -1,116 +1,85 @@
-# 👋 Hi there, I'm Abinaya S  
-### Embedded Software Engineer | Firmware Developer | IoT & Medical Device R&D
+<!-- README.md for Abunique -->
 
-🔹 Bangalore, India  
-🔹 [LinkedIn](https://www.linkedin.com/in/abinaya-s-a27860122/)  
-🔹 [GitHub Repositories](https://github.com/Abunique?tab=repositories)  
-🔹 📧 abinayavijayselvan3151996@gmail.com  
-
----
-
-## 🧭 About Me
-I’m an **Embedded Software Engineer** with 4+ years of experience designing and developing reliable firmware solutions for **ARM Cortex-M**, **PIC**, and **NRF52** microcontrollers.  
-I specialize in **C-based driver development**, **RTOS integration (Zephyr, FreeRTOS)**, and **hardware-software co-design**, particularly within **medical, industrial, and IoT domains**.  
-
-My work spans from **bare-metal register-level programming** to **RTOS driver abstraction**, bringing together performance, safety, and compliance with standards like **MISRA C**, **ISO 13485**, and **IEC 62304**.  
+<h2 align="center">👋 Hi, I’m Abinaya S</h2>
+<p align="center">
+  <b>Embedded Systems Engineer | Firmware Developer | IoT & Hardware Enthusiast</b><br>
+  <a href="https://www.linkedin.com/in/abinaya-s-a27860122/">LinkedIn</a> •
+  <a href="mailto:abinayavijayselvan3151996@gmail.com">Email</a> •
+  <a href="https://github.com/Abunique?tab=repositories">GitHub Repos</a>
+</p>
 
 ---
 
-## ⚙️ Technical Expertise
+### 🧠 About Me  
+I'm an **Embedded Software Engineer** passionate about turning hardware into intelligent systems.  
+I work across firmware, RTOS, and hardware integration—bringing ideas from schematic to working prototype.  
+Most of my projects blend **real-time firmware**, **sensor integration**, and **IoT communication** (BLE, Wi-Fi, LoRa).  
 
-| Category | Skills / Tools |
-|-----------|----------------|
-| **Languages** | C, Assembly, Python (basic) |
-| **MCUs** | ARM Cortex-M (STM32, MAXIM), PIC32, AVR, ESP32/8266, Nuvoton 8051 |
-| **Firmware** | Bare-metal, HAL driver dev, RTOS (Zephyr, FreeRTOS), GTest Unit Testing |
-| **Protocols** | I²C, SPI, UART, BLE, LoRa-WAN, Wi-Fi, MQTT, HTTPS |
-| **Debug & Tools** | Oscilloscope, Logic Analyser, Segger J-Link, GDB, Telnet, Pickit |
-| **Platforms** | Keil, IAR Workbench, MPLAB, STM32Cube, MaximSDK, VS Code |
-| **PCB & Simulation** | EasyEDA, Proteus |
-| **Regulatory / Standards** | ISO 13485, IEC 62304, MISRA C, 21 CFR 820 |
-| **Version Control & Workflow** | Git, Jira, Azure DevOps, Agile Development |
+💡 *“I love making hardware talk.”*
 
 ---
 
-## 🧩 Featured Work
+### ⚙️ I Work With  
+<p align="center">
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ARM%20Cortex-M4-0091BD?style=for-the-badge&logo=arm&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RTOS-Zephyr%20%7C%20FreeRTOS-563D7C?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/UART%20%7C%20I2C%20%7C%20SPI-333333?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Embedded%20C%20%7C%20Driver%20Dev-FF6F00?style=for-the-badge"/>
+</p>
 
-### 🔹 **SmartSoc Solutions (Aug 2024 – Present)**  
-**Senior Engineer – Embedded**
-
-- Developed **HAL and bare-metal drivers** for GPIO, I²C, SPI, UART, and RTC, ensuring MISRA C compliance.  
-- Ported and validated drivers in **Zephyr RTOS** and optimized firmware stability using **error profiling layers**.  
-- Created **unit tests (Google Test)** for firmware validation and reliability improvement.  
-- Key Project: Firmware for a **dialysis support system** measuring **blood calcium** via potentiometric & conductivity sensors on **MAX32651**.  
-- Designed **state-machine-based control** with message queue scheduling and **motor driver control** for precise fluid handling.
-
----
-
-### 🔹 **Srushty Global Solutions (2023 – 2024)**  
-**Firmware Design Engineer**
-
-- Defined **firmware architecture**, flowcharts, and testing frameworks to improve scalability.  
-- Developed **low-level drivers** and **networking protocols** in C (BLE, LoRa, Wi-Fi + TCP/IP).  
-- Mentored juniors and improved team efficiency by 10%.  
-- Key Projects:  
-  - **LoRa-WAN + GPS** sensor prototypes for long-range connectivity.  
-  - **Wi-Fi + BLE** water management system with real-time control via MQTT/HTTPS.  
-  - **AI-based health monitoring** firmware for bio-impedance and heartbeat/lung analysis on STM32H7.
+🧩 **Tech Stack Highlights**  
+- Firmware: C, CMSIS, Register-level programming  
+- Controllers: MAX32650/51, STM32, PIC32, NRF52832  
+- RTOS: Zephyr, FreeRTOS  
+- Interfaces: I2C, UART, SPI, BLE, LoRa-WAN  
+- Tools: IAR, Keil, MPLAB, VS Code, GDB, Segger J-Link  
+- Boards & Hardware Debug: Logic Analyzer, Oscilloscope  
+- PCB: EasyEDA  
 
 ---
 
-### 🔹 **HCL Technologies (2021 – 2023)**  
-**Member Technical Staff – Embedded Software**
+### 🚀 Featured Projects  
+| Project | Description | Tech |
+|----------|--------------|------|
+| [**Dual EEPROM Middleware**](https://github.com/Abunique) | Middleware layer for shared I²C bus communication between dual AT24C32 EEPROMs. | C, I²C, HAL |
+| [**UART Protocol Analyzer**](https://github.com/Abunique) | Custom protocol with CRC and message framing for reliable UART data exchange. | C, UART |
+| [**IR Temperature Sensing (MLX90632)**](https://github.com/Abunique) | IR sensor integration on MAX32651 with temperature compensation logic. | C, I²C |
+| [**IoT Pulse Monitoring System**](https://github.com/Abunique) | ESP32-based pulse and temperature sensing system with MQTT cloud interface. | C++, Wi-Fi, MQTT |
 
-- Ported firmware from **PIC32 to ARM NRF52**, improving speed & robustness.  
-- Implemented **C/C++ firmware** compliant with ISO 13485 and 21 CFR 820.  
-- Collaborated with QA & Regulatory teams using TrackWise.  
-- 🏆 Recognized as **Best Performer 2022** for enhancing production quality and reducing operational cost by 50%.
-
----
-
-## 🚀 Projects on GitHub  
-Explore my open-source and practice repositories:  
-➡️ [github.com/Abunique?tab=repositories](https://github.com/Abunique?tab=repositories)
-
-Some notable works:
-- **IOT_BASED_PULSE_MONITORING_SYSTEM** – Pulse & temperature sensing IoT device using ESP32 + cloud dashboard.  
-- **Dual EEPROM Middleware** – Shared I²C bus management for multi-address EEPROMs.  
-- **UART Custom Protocol Analyzer** – Frame parsing, CRC validation, and response timing system.  
+🧠 Each project explores hardware-software boundaries — from drivers to system logic.
 
 ---
 
-## 🎓 Education
-- 🎓 **Post-Graduate Diploma** – *Electronic Instrumentation & Health Informatics*  
-  *CDAC Mohali (2019)* — *A Grade*  
-- 🎓 **B.E. Biomedical Engineering** – *Anna University (2017)* — *7.4 CGPA*
+### 🧩 Current Interests
+- Porting vendor-specific HALs to **Zephyr RTOS**
+- Building reusable **driver libraries** for ARM Cortex platforms  
+- Exploring **system-level design** and **real-time scheduling**
+- Learning more about **FPGA design** & **hardware acceleration**
 
 ---
 
-## 🧾 Certifications
-- PIC Microcontroller Programming – Argyn Technologies  
-- ARM Cortex-M4 Driver Development – Argyn Technologies  
-- Mastering RTOS (FreeRTOS + STM32Fx) – Udemy  
-- Technology based Entrepreneurship Development Program (TEDP)
+### 📊 GitHub Snapshot
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Abunique&show_icons=true&theme=tokyonight" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abunique&layout=compact&theme=tokyonight" height="150"/>
+</p>
 
 ---
 
-## 🌱 Current Focus
-- Deepening expertise in **Zephyr RTOS**, **driver abstraction**, and **system-level product design**  
-- Exploring **automotive and industrial networking applications**  
-- Continuous learning of **RTOS task scheduling**, **CMSIS**, and **low-power design methods**
+### 🧾 Fun Corner
+💬 I enjoy documenting embedded experiments and sharing “why” behind “how”.  
+⚡ Currently tinkering with: **MAXIM SDK + Zephyr** for cross-platform driver reuse.  
+🌍 Based in Bangalore (from Chennai) — never too far from a breadboard!
 
 ---
 
-## 🧡 Beyond Work
-Based in Bangalore (originally from Chennai) — I love exploring new-age electronic designs, tinkering with sensor nodes & IoT prototypes, and creating documentation to simplify embedded concepts for others.
+### ☕ Connect with Me
+<p align="center">
+  <a href="https://www.linkedin.com/in/abinaya-s-a27860122/"><img src="https://img.shields.io/badge/LinkedIn-Abinaya%20S-blue?style=for-the-badge&logo=linkedin"/></a>
+  <a href="mailto:abinayavijayselvan3151996@gmail.com"><img src="https://img.shields.io/badge/Email-abinayavijayselvan3151996%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
 
 ---
 
-## 📈 GitHub Stats
-
-![Abinaya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Abunique&show_icons=true&theme=tokyonight)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abunique&layout=compact&theme=tokyonight)
-
----
-
-⭐ *“Turning bits, bytes, and boards into real-world solutions.”*  
+⭐ *“Turning circuits into stories through code.”*
