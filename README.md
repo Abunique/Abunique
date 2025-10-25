@@ -9,11 +9,11 @@
 ---
 
 ### 🧠 About Me  
-I’m an **Embedded Software Engineer** who loves transforming hardware into intelligent digital systems.  
-My work lies at the intersection of **bare-metal firmware**, **RTOS**, and **connected digital platforms**.  
+I’m an **Embedded Software Engineer** who enjoys transforming hardware into intelligent digital systems.  
+My work spans **bare-metal firmware**, **RTOS-based architectures**, and **connected embedded platforms**, bringing together precise hardware control and scalable software design.
 
-Over the past few years, I’ve contributed to **medical device R&D**, **IoT development**, and **system-level firmware**, specializing in **driver design**, **hardware abstraction layers**, and **sensor integration**.  
-I enjoy building firmware that’s reliable, portable, and standards-compliant (MISRA C, ISO 13485, IEC 62304).
+Over the past few years, I’ve contributed to **R&D projects in medical and industrial domains**, designing **low-level drivers**, **hardware abstraction layers**, and **sensor communication frameworks**.  
+Most of these solutions are built around **ARM Cortex-M microcontrollers**, focusing on **reliability, modularity**, and **compliance with safety and quality standards** (MISRA C, ISO 13485, IEC 62304).  
 
 💡 *“I believe every circuit has a story — firmware is how it speaks.”*
 
@@ -34,12 +34,12 @@ I enjoy building firmware that’s reliable, portable, and standards-compliant (
 
 | Project | Description | Tech Stack |
 |----------|--------------|-------------|
-| [**Dual EEPROM Middleware**](https://github.com/Abunique/Dual_EEPROM_Middleware) | HAL middleware for two AT24C32 EEPROMs on a shared I²C bus. Includes hardware info storage APIs. | C, I²C, HAL, MAX32650 |
-| [**UART Protocol Analyzer**](https://github.com/Abunique/UART_Protocol_Analyzer) | Custom protocol stack for UART data framing and CRC validation between PC and MCU. | C, UART, CRC |
-| [**IR Temperature Sensing (MLX90632)**](https://github.com/Abunique/MLX90632_MAX32651) | IR sensor integration with MAX32651 controller using I²C and compensation logic. | C, I²C, MaximSDK |
-| [**IoT Pulse Monitoring System**](https://github.com/Abunique/IoT_Pulse_Monitoring_System) | ESP32-based health monitoring system with MQTT cloud interface. | C++, Wi-Fi, MQTT, ESP-IDF |
+| **Dual EEPROM Middleware** | Designed HAL middleware for two AT24C32 EEPROMs sharing a single I²C bus, featuring modular APIs for hardware info storage and retrieval. | C, I²C, HAL, MAX32650 |
+| **UART Protocol Analyzer** | Developed a custom UART protocol stack with message framing, CRC validation, and timeout handling for robust PC–MCU communication. | C, UART, CRC |
+| **IR Temperature Sensing (MLX90632)** | Integrated MLX90632 IR temperature sensor with MAX32651 MCU using I²C; implemented calibration and compensation logic for precise readings. | C, I²C, MaximSDK |
+| **IoT Pulse Monitoring System** | Built an IoT-enabled pulse and temperature monitoring system using ESP32, featuring MQTT-based cloud connectivity for real-time telemetry. | C++, Wi-Fi, MQTT, ESP-IDF |
 
-📂 Explore more repositories [here →](https://github.com/Abunique?tab=repositories)
+📂 *Additional prototypes and experiments are showcased in my public repositories.*
 
 ---
 
