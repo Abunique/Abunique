@@ -2,7 +2,7 @@
 
 <h2 align="center">👋 Hi, I’m Abinaya S</h2>
 <p align="center">
-  <b>Embedded Systems Engineer | Firmware Developer | IoT & Hardware Enthusiast</b><br>
+  <b>Embedded Systems Engineer |digital platforms & bare_metal Enthusiast</b><br>
   <a href="https://www.linkedin.com/in/abinaya-s-a27860122/">LinkedIn</a> •
   <a href="mailto:abinayavijayselvan3151996@gmail.com">Email</a> •
   <a href="https://github.com/Abunique?tab=repositories">GitHub Repos</a>
