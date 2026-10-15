@@ -38,7 +38,7 @@ Most of these solutions are built around **ARM Cortex-M microcontrollers**, focu
 | **UART Protocol Analyzer** | Developed a custom UART protocol stack with message framing, CRC validation, and timeout handling for robust PC–MCU communication. | C, UART, CRC |
 | **IR Temperature Sensing (MLX90632)** | Integrated MLX90632 IR temperature sensor with MAX32651 MCU using I²C; implemented calibration and compensation logic for precise readings. | C, I²C, MaximSDK |
 | **IoT Pulse Monitoring System** | Built an IoT-enabled pulse and temperature monitoring system using ESP32, featuring MQTT-based cloud connectivity for real-time telemetry. | C++, Wi-Fi, MQTT, ESP-IDF |
-| **Quadcore Pre_silicon firmware development** | Independently developed Telemetry core for AI powermanagement Chip | C, Memory_management| FPGA integration and testing| ARM_IDE |R52 core|
+| **Quadcore Pre_silicon firmware development** | Independently developed Telemetry core for AI powermanagement Chip | C| FPGA integration and testing| ARM_IDE |R52 core|
 
 📂 *Additional prototypes and experiments are showcased in my public repositories.*
 
